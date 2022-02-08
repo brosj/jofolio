@@ -63,12 +63,7 @@ pre {
   line-height: 18.5714px;
 }
 
-
-hr {
-  /* border-top: 1px solid red; */
-  /* margin-top: 1em; */
-}
-
+/* Styling the navigation bar */
 .topnav {
   color: #000;
   text-align: left;
@@ -170,7 +165,7 @@ main {
   }
 }
 
-/* Style the counter cards */
+/* Style the coolstuff cards */
 .card {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
   padding: 20px;
@@ -182,7 +177,7 @@ main {
   color: #0f52ba;
 }
 
-/* Style the footer*/
+/* Style the friendzone section*/
 #friendzone {
   background-color: #F8FAFC;
   display: flex;
@@ -190,20 +185,23 @@ main {
   align-items: center;
   width: 100%;
   margin: 30px auto;
-  padding: 0 25%;
+  padding: 0 20%;
 }
 
-.friendtext {
+.friendcolumn {
   float: left;
   width: 50%;
-  padding: 20px 20px;
+  padding: 20px 10px;
   text-align: center;
 }
 
-.friendinput {
-  float: left;
-  width: 50%;
-  padding: 20px 20px;
+/* Responsive columns */
+@media screen and (max-width: 600px) {
+  .friendcolumn {
+    width: 100%;
+    display: block;
+    margin-bottom: 10px;
+  }
 }
 
 input[type=text] {
