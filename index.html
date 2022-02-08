@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Joshua Onyeuche</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link rel="stylesheet" type="text/css" href="//fonts.googleapis.com/css?family=Lato" />
+  </head>
+
+  <body>
+    <div class="container">
+      <div class="topnav">
+        <img src="images/J_512x512_BLACK.svg" width=45px height=45px/>
+        <ul>
+          <li><a class="active" href="#HOME">HOME</a></li>
+          <li><a href="#PORTFOLIO">PORTFOLIO</a></li>
+          <li><a href="#CONTACT">CONTACT</a></li>
+          <li><a href="#friendzone">FRIENDZONE</a></li>
+        </ul>
+        <!-- <hr> -->
+      </div>
+      <hr>
+
+      <main>
+        <div class="introduction">
+          <h1>Hi 👋 ― I’m Josh</h1>
+          <h2>I’m passionate about software dev, design and making stuff.</h2>
+          <p>Brosj is the umbrella under which I share about software dev, design principles and occasionally, on life in general.</p>
+          <p>P.S. I also share some of my insanely cool productivity hacks here.</p>
+        </div>
+
+        <div class="coolstuff">
+          <img src="images/Cool-stuff-EDIT-1.svg" alt="Check out some of my cool stuff" width=50%>
+          <div class="row">
+            <div class="column">
+              <div class="card">
+                <h2>👨🏾‍💻 Dev Blog</h2>
+                <h3>I like to blog about the stuff I’m interested in. I hope you’ll find some of it interesting too.</h3>
+              </div>
+            </div>
+          
+            <div class="column">
+              <div class="card">
+                <h2>🚀 Productivity</h2>
+                <h3>How to execute efficiently, make time for what matters and have fun along the way.</h3>
+              </div>
+            </div>
+            
+            <div class="column">
+              <div class="card">
+                <h2>🎬 YouTubing</h2>
+                <h3>Start your channel and generate passive income without quitting your day job.</h3>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+      </main>
+    </div>
+
+    <div id="friendzone">
+      <div class="row">
+        <div class="friendtext">
+          <h2>💌 Join the Friendzone</h2>
+          <h3>The Friendzone is my infrequent email newsletter where I share the development process of some software projects, actionable productivity tips and high-quality insights from across the web, directly to your inbox.</h3>
+        </div>
+        <div>
+          <form class="friendinput" action="/index.js">
+            <!-- <label for="fname">First name: </label> -->
+            <input type="text" id="fname" name="fname" placeholder="First name *" required><br><br>
+            <!-- <label for="email">Email address: </label> -->
+            <input type="email" id="email" name="email" placeholder="Email address *" required><br><br>
+            <input type="submit" value="JOIN THE FRIENDZONE">
+          </form>
+        </div>
+      </div>
+    </div>
+
+  </body>
+</html>
